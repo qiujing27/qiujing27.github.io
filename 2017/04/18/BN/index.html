@@ -3,14 +3,19 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Fall Cloud</title>
+  <title>BN for deep learning | Fall Cloud</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Fall Cloud">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="SummaryThis a paper summary for Accelerating Deep Network training by Reducing internal covariance shift. Internal covariance shift is a serious problem in deep learning training, so BN is designed">
+<meta name="keywords">
+<meta property="og:type" content="article">
+<meta property="og:title" content="BN for deep learning">
+<meta property="og:url" content="http://yoursite.com/2017/04/18/BN/index.html">
 <meta property="og:site_name" content="Fall Cloud">
+<meta property="og:description" content="SummaryThis a paper summary for Accelerating Deep Network training by Reducing internal covariance shift. Internal covariance shift is a serious problem in deep learning training, so BN is designed">
+<meta property="og:updated_time" content="2017-04-18T18:10:51.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Fall Cloud">
+<meta name="twitter:title" content="BN for deep learning">
+<meta name="twitter:description" content="SummaryThis a paper summary for Accelerating Deep Network training by Reducing internal covariance shift. Internal covariance shift is a serious problem in deep learning training, so BN is designed">
   
     <link rel="alternate" href="/atom.xml" title="Fall Cloud" type="application/atom+xml">
   
@@ -59,99 +64,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-写博客" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/04/18/写博客/" class="article-date">
-  <time datetime="2017-04-18T17:07:36.000Z" itemprop="datePublished">2017-04-18</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/04/18/写博客/">写博客</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Markdown is a way to write content for the web,designed by John Gruber in 2004. 尽管它的文本在编辑的时候看起来很清爽简单，但是我用起来并不顺手，插图和公式都有些麻烦，也可能是因为还没有找到更适合的方法。<br>编辑器<br>Byword 不错，界面清爽，缺点是文件存储和检索不方便。用nvALT创建和保存文件，用Byword打开。用keyboard Maestro Editor编辑打开的快捷方式。<br>用Markdown写公式<br>根据<a href="http://www.jianshu.com/p/888c5eaebabd" target="_blank" rel="external">如何在markdown中插入数学公式</a><br>尝试了Google Chart的服务器，forkosh服务器,MathJax引擎,最终选了MathJax引擎。Google Chart的服务器，forkosh服务器都非常的简陋，一旦公式里面有2组（）就不能识别，forkosh服务器还会有“可爱”的大红水印。。。MathJax引擎就放便灵活多了。</p>
-<ol>
-<li>在Markdown 里添一行<br><code>&lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default&quot;&gt;&lt;/script&gt;</code></li>
-<li>对于行间公式，<code>$$x$$</code></li>
-<li>对于行内公式。<code>\\x(\\)</code><br>用Markdown插图</li>
-</ol>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/04/18/写博客/" data-id="cj1nveedx0005f9wqjg8si70n" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-cifar_tensorflow" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/04/18/cifar_tensorflow/" class="article-date">
-  <time datetime="2017-04-18T16:05:26.000Z" itemprop="datePublished">2017-04-18</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/04/18/cifar_tensorflow/">Training Cifar－10 with tensorflow</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <ol>
-<li>install tensorflow<ol>
-<li>pip install tensorflow-gpu</li>
-<li>尝试 import tensorflow 发现少cudnn</li>
-</ol>
-</li>
-<li>配置cudnn<ol>
-<li>下载cudnn匹配版本<a href="https://developer.nvidia.com/rdp/cudnn-download" target="_blank" rel="external"></a></li>
-<li>解压将 include 放到 /usr/local/cuda/include, lib64 放到 /usr/local/cuda/lib64</li>
-</ol>
-</li>
-</ol>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/04/18/cifar_tensorflow/" data-id="cj1nveeds0002f9wq2alyfw74" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-BN" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-BN" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2017/04/18/BN/" class="article-date">
   <time datetime="2017-04-18T15:44:05.000Z" itemprop="datePublished">2017-04-18</time>
@@ -164,8 +77,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/04/18/BN/">BN for deep learning</a>
+    <h1 class="article-title" itemprop="name">
+      BN for deep learning
     </h1>
   
 
@@ -273,55 +186,28 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/04/12/hello-world/" class="article-date">
-  <time datetime="2017-04-12T23:27:55.000Z" itemprop="datePublished">2017-04-12</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+    <a href="/2017/04/12/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
         
+          Hello World
+        
+      </div>
+    </a>
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/04/12/hello-world/">Hello World</a>
-    </h1>
   
+    <a href="/2017/04/18/cifar_tensorflow/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Training Cifar－10 with tensorflow</div>
+    </a>
+  
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/04/12/hello-world/" data-id="cj1nveedw0004f9wqgkdzg9se" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
 
 </section>
         
